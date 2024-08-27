@@ -1,16 +1,16 @@
 body {
-    background-color: #000000; /* Set background color to black */
-    color: #ffffff; /* Set text color to white for readability */
-    font-family: 'Poppins', sans-serif; /* Ensure you are using the Poppins font */
+    background-color: #000000; 
+    color: #ffffff; 
+    font-family: 'Poppins', sans-serif; 
     margin: 0;
     padding: 0;
   }
   .all-products-container {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center horizontally */
-    justify-content: center; /* Center vertically if needed */
-    padding: 20px; /* Optional: Add some padding around the container */
+    align-items: center; 
+    justify-content: center; 
+    padding: 20px; 
   }
   
   .product-card {
@@ -34,35 +34,34 @@ body {
   
   .product-list {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columns with equal width */
-    gap: 20px; /* Space between items */
-    margin-top: 20px; /* Space above the product list */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    margin-top: 20px; 
     max-height: 600px;
-    max-width: 100%; /* Set a max height for scrolling */
-    overflow-y: auto; /* Enable vertical scrolling */
-    width: 100%; /* Make the grid take full width */ /* Optional: Set a max width for the grid */
+    max-width: 100%; 
+    overflow-y: auto;
+    width: 100%; 
   }
   
   .product-card {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center content horizontally */
-    justify-content: center; /* Center content vertically */
-    text-align: center; /* Center text within the card */
-    padding: 10px; /* Add some padding around the content */
-    border: 2px solid #39FF14; /* Neon green border */
-    border-radius: 8px; /* Optional: Round the corners of the card */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
-    background-color: #000000; /* Background color of the product card */
-    color: #ffffff; /* Text color for the product card */
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+    padding: 10px; 
+    border: 2px solid #39FF14;
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    background-color: #000000; 
+    color: #ffffff; 
   }
   
   .product-card img {
-    width: 100px; /* Adjusted image width */
-     /* Adjusted image height */
-    object-fit: cover; /* Ensure the image covers the entire area without distortion */
-    border-radius: 8px; /* Optional: Add some rounding to the corners */
-    margin-bottom: 10px; /* Add some space below the image */
+    width: 100px; 
+    object-fit: cover;
+    border-radius: 8px; 
+    margin-bottom: 10px; 
   }
   
   .product-card a {
@@ -71,41 +70,40 @@ body {
     font-weight: bold;
   }
   .button, .reset-button {
-    background-color: #444; /* Dark background for buttons */
-    color: #ffffff; /* White text color */
+    background-color: #444;
+    color: #ffffff; 
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
     cursor: pointer;
     font-size: 16px;
-    margin: 0 10px; /* Space between buttons */
+    margin: 0 10px; 
     transition: background-color 0.3s ease;
   }
 
-/* src/styles.css */
 .reset-button {
-    background: #f8f9fa; /* Light background */
-    border: 1px solid #ced4da; /* Light border */
-    color: #495057; /* Darker text color */
-    padding: 10px 20px; /* Padding for the button */
-    border-radius: 8px; /* Rounded corners */
-    font-size: 16px; /* Font size */
-    font-weight: 600; /* Font weight */
-    text-align: center; /* Center text */
-    text-decoration: none; /* Remove underline */
-    display: inline-block; /* Inline-block for proper sizing */
-    cursor: pointer; /* Pointer cursor on hover */
-    transition: background 0.3s ease, transform 0.2s ease; /* Smooth transitions */
-    margin: 0 10px; /* Margin between buttons */
+    background: #f8f9fa; 
+    border: 1px solid #ced4da; 
+    color: #495057; 
+    padding: 10px 20px; 
+    border-radius: 8px; 
+    font-size: 16px; 
+    font-weight: 600; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    cursor: pointer; 
+    transition: background 0.3s ease, transform 0.2s ease; 
+    margin: 0 10px; 
   }
   
   .reset-button:hover {
-    background: #e2e6ea; /* Slightly darker background on hover */
-    transform: scale(1.05); /* Slightly enlarge on hover */
+    background: #e2e6ea; 
+    transform: scale(1.05); 
   }
   
   .reset-button:active {
-    background: #dae0e5; /* Even darker background on active */
-    transform: scale(0.98); /* Slightly shrink on click */
+    background: #dae0e5; 
+    transform: scale(0.98); 
   }
   
